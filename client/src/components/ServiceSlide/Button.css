@@ -1,0 +1,88 @@
+
+
+.btn {
+    padding: 8px 20px;
+    margin: 5px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.ButtonService{
+    position: relative;
+    margin-top: 1000px;
+    display:inline;
+    flex-direction:inline;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+
+}
+
+.btn--primary {
+    background-color: #3E2662;
+    color: #242424;
+   
+
+}
+
+.btn--outline {
+    background-color: #3E2662;
+    color: #fff;
+    padding: 8px 20px;
+    
+    transition: all 0.3s ease-out;
+}
+
+.btn--medium {
+    padding: 8px 20px;
+    font-size: 18px;
+   
+}
+
+.btn--large {
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
+.btn--large:hover,
+.btn--medium:hover {
+    transition: all 0.3s ease-out;
+    background:red;
+    color: #242424;
+    transition: 250ms;
+}
+.hero-btns {
+    position: relative;
+    margin-left: 700px;
+}
+@media screen and (max-width: 960px) {
+    .hero-container>h1 {
+        font-size: 70px;
+        margin-top: -150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-container>h1 {
+        font-size: 50px;
+        margin-top: -100px;
+    }
+
+    .hero-container>p {
+        font-size: 30px;
+    }
+
+    .btn-mobile {
+        display: block;
+        text-decoration: none;
+    }
+
+    .btn {
+        width: 100%;
+        
+    }
+}

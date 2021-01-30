@@ -1,0 +1,40 @@
+/* .slider {
+  position: relative;
+  width: 600px;
+  height: 250px;
+  display: flex;
+  margin-left: 300px;  
+  
+} */
+
+.cont{
+  margin: 80px 0 20px 200px;
+}
+hr{
+  width: 90%;
+}
+ .brandIcons>i {
+ 
+  font-size: 100px;
+  margin: 20px;
+  
+}
+.contai{
+  margin: 40px 80px;
+}
+.brandIcons{
+   display:inline;
+   margin:50px 0;
+   flex-direction:inline;
+   justify-content: center;
+   align-items: center;
+}
+.ServiceText>h1{
+  margin: 10px;
+}
+.ServiceText>p{
+  margin:5px 5px 10px 10px;
+}
+.ServiceText>h3 {
+  margin: 10px 10px 10px 30px;
+}
